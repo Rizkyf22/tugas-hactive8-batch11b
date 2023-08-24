@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          border: 1px solid #e7e7e7;
+          background-color: #f3f3f3;
+        }
+        
+        li a{
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: #666;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #ddd;
+        }
+        
+        li a.active {
+          color: white;
+          background-color: #0378e6;
+        }
+        
+        </style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Form.html">Form</a></li>
+        <li><a class="active" href="About.html">About</a></li>
+      </ul>
+
+    <div id="name" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <h1>Rizky Fajar Setiawan</h1>
+    </div>
+
+    <div id="social-media">
+        <a href="https://Instagram.com/rfajars997" target="_blank" ><img src="asset/Instagram.jpg" alt="Instagram" style="width:42px;height:42px;"></a>
+        <a href="https://github.com/Rizkyf22" target="_blank" ><img src="asset/github.jpg" alt="Github" style="width:42px;height:42px;"></a>
+    </div>
+
+    <div id="profile">
+        <h2>Profile</h2>
+        <p>Lulusan S1 tenik Informatika, mengikuti pelatihan web di Hactiv8 untuk memperbesar kesempatan peluang kerja. </p>
+    </div>
+
+    <div id="technical-skill">
+        <h2>Technical Skill</h2>
+            <ol>
+                <li>Microsoft Words</li>
+                <li>Microsoft Excel</li>
+                <li>Html</li>
+            </ol>
+    </div>
+
+    <div id="education">
+        <h2>Education</h2>
+            <ol style="list-style-type: circle;">
+                <li>SD Negeri Patrakomala Bandung</li>
+                <li>SD Negeri Sambong Permai Tasikmalaya</li>
+                <li>SMP Negeri 10 Tasikmalaya</li>
+                <li>SMA Negeri 8 Tasikmalaya</li>
+                <li>LP3I Tasikmalaya</li>
+                <li>STMIK Tasikmalaya</li>
+            </ol>
+    </div>
+
+    <div id="Inquiry">
+      <h2>Inquiry</h2>
+      <form action="" method="post">
+        <tr>
+          <td><input type="email" name="email" placeholder="your email address" size="30" /></td>
+        </tr><br><br>
+
+        <tr>
+          <td><textarea cols="30" rows="5" placeholder="your question"></textarea></td>
+         </tr><br><br>
+
+         <tr>
+          <td><input type="submit" value="submit"/>
+              <input type="reset" value="clear"></td> 
+        </tr>
+
+      </form>
+    </div>
+
+    <div id="contact-me">
+        <h2>Contact Me</h2>
+        +(62)81321661137<br><br>
+        &copy;2023 Rizky Fajar Setiawan
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><label>Pesan</label></td>
+            <td>:</td>
+            <td><input input id="pesan" type="text"/></td>
+        </tr>
+        <tr>
+            <td><label>Jumlah</label></td>
+            <td>:</td>
+            <td><input id="input" type="number"/></td>
+        </tr>
+        <tr>
+            <td><input id="btn" type="button" value="Cetak"/></td>
+        </tr>
+    </table>
+            <div id="cetak"></div>      
+<script>
+document.getElementById('btn').onclick = function(){
+    var id_psn = document.getElementById('pesan').value;
+    var total = parseInt(document.getElementById('input').value);
+    var output = document.getElementById('cetak');
+    output.innerHTML = '';
+    for(var i = 1; i <= total; i ++) {
+        var item = document.createElement('div');
+        item.innerHTML = i + ('.  ') + [id_psn];
+        output.appendChild(item);
+    }
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li a{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #0378e6;
+}
+
+</style>
+</head>
+<body>
+
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a class="active" href="Form.html">Form</a></li>
+        <li><a href="About.html">About</a></li>
+      </ul>
+
+      <form action="" method="post">
+        <table>
+          
+          <tr>
+           <td><label>Nama </label></td>
+           <td><label>: </label></td>
+           <td><input type="text" name="nama" placeholder="Masukkan Nama" size="50" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Tanggal Lahir </label></td>
+            <td><label>: </label></td>
+            <td><input type="date" name="tanggal-lahir" /></td>
+           </tr>
+
+           <tr>
+            <td><label>Jenis kelamin </label></td>
+            <td><label>: </label></td>
+            <td><input type="radio" name="jenis-kelamin" value="Laki-laki" /> Laki-laki
+                <input type="radio" name="jenis-kelamin" value="Perempuan" /> Perempuan</td>
+           </tr>
+
+           <tr>
+            <td><label>Skill yang dikuasai</label></td>
+            <td><label>: </label></td>
+            <td> <input type="checkbox" name="skill" value="HTML" /> HTML
+                 <input type="checkbox" name="skill" value="CSS" /> CSS
+                <input type="checkbox" name="skill" value="Javascript" /> Javascript
+                <input type="checkbox" name="skill" value="PHP" /> PHP</td>
+           </tr>
+
+           <tr>
+            <td><label>Email </label></td>
+            <td><label>: </label></td>
+            <td><input type="email" name="email" placeholder="Masukkan Email" size="50" /></td>
+           </tr>
+
+           <tr>
+           <td><label>Agama </label></td>
+           <td><label>: </label></td>
+              <td><select>
+             <option value="" disabled selected>- Pilih -</option>
+              <option value="Islam">Islam</option>
+              <option value="Kristen">Kristen</option>
+              <option value="Hindu">Hindu</option>
+              <option value="Budha">Budha</option>
+              <option value="Konghucu">Konghucu</option>
+                </select> </td>
+           </tr>
+
+           <tr>
+            <td><label>Alamat </label></td>
+            <td><label>: </label></td>
+            <td><textarea cols="30" rows="5" placeholder="Masukkan Alamat"></textarea></td>
+           </tr>
+
+           <tr>
+            <td><input type="submit" value="submit"/>
+                <input type="reset" value="clear"></td> 
+          </tr>
+        </table>
+      </form>
+
+
+</body>
+</html>

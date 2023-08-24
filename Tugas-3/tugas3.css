@@ -1,0 +1,108 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+#kesatu{
+  display: flex;
+}
+
+#profile{
+  display: flex;
+  
+}
+
+.profile-photo{
+  flex: left;
+  margin: 5px; 
+}
+
+.profile-text{
+  flex: left;
+  margin: 5px; 
+}
+.detail{
+  margin: 30px; 
+}
+
+#tabel2{
+  height: 200px;
+  width: 50%;
+}
+
+#tl{
+  font-weight:lighter;
+  font-family: 	"Courier New";
+  font-size: small;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button{
+  border-radius:16px;
+  padding:12px 24px;
+  border-color: aquamarine;
+}
+
+#tombol1{
+  color:#fff;background-color:#2196F3;
+  border-color: #2196F3;
+}
+
+img{
+  border: 5px solid orange;
+  border-radius: 50%;
+  size: 50px;
+}
+
+th{
+  text-align: left;
+}
+/* tambahkan CSS untuk section profile disini */
